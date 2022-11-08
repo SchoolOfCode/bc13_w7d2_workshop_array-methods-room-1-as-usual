@@ -10,6 +10,6 @@ const result2 = seventySevenTimesTable.find(function (num) {
     return num % 77 !== 0;
 })
 
-/* const result3 = seventySevenTimesTable.findIndex(function (num){
-    return num.findIndex(461);
-}) */
+const result3 = seventySevenTimesTable.findIndex(function (num) {
+    return num % 77 !== 0;
+} );
