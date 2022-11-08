@@ -8,4 +8,6 @@ let animals = [
     "basalisk",
   ];
   
-let bListAnimals = // Your 'filter' code here.
+let bListAnimals = animals.filter(function (animal) {
+  return animal.startsWith("b")
+})
